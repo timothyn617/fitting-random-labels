@@ -1,3 +1,5 @@
+# See "noisy_weights" branch in this repo for some additional custom features.
+
 - [Code organization](#code-organization)
 - [Command examples](#command-examples)
 - [SGD implicit regularization](#sgd-implicit-regularization)
