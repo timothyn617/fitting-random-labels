@@ -30,7 +30,7 @@ The blue curve is the initial run on both the train and validation set, for whic
 
 ### 3) Accuracy Oscillation
 
-We plot the intersection and union of correct labels for consecutive epochs (as percentages of the dataset). This allows us to understand how the accuracy per epoch is distributed among examples over the course of training. We see below that early in training when accuracy is low and moderate, the correct examples fluctuate, as indicated by the union being significantly larger than the intersection. These are three different runs on random train labels:
+We plot the intersection and union of training predictions for consecutive epochs (as percentages of the dataset). This allows us to understand how the accuracy per epoch is distributed among examples over the course of training. We see below that early in training when accuracy is low and moderate, the correct examples fluctuate, as indicated by the union being significantly larger than the intersection. In the below, the red curve is from a training run on true labels and the blue curve is from a training run on random labels:
 
 <p align="center">
 <img src="https://github.com/timothyn617/fitting-random-labels/blob/noisy_weights/tb3.png">
